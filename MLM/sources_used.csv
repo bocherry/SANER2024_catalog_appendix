@@ -1,0 +1,77 @@
+Category,Code smell,Sources,Total
+Aggregation,Lookup without supporting indexes,S69,1
+Aggregation,Too many aggregation stages,S125,1
+Aggregation,Map-reduce for projection,"S80, S177, S125",3
+Backup,Manual backups,S62,1
+Backup,No backup budget,S4,1
+Backup,Replicas as backup,"S114, S116, S47",3
+Design oversights > Application code,Immortal cursors,S176,1
+Design oversights > Application code,No dependency injector,S127,1
+Design oversights > Application code,Testing only CRUD operations,S125,1
+Design oversights > Application code,Testing queries on the entire ad-hoc big data lake,S4,1
+Design oversights > Data/Schema,The single-person bridge,S39,1
+Design oversights > Application code,Querying too much data,"S4, S27, S56",3
+Design oversights > Data/Schema,Multiple schemas in a file,S127,1
+Design oversights > Data/Schema,Repeated immutable data,S4,1
+Design oversights > Data/Schema,"Using a document for ""_id""",S171,1
+Design oversights > Data/Schema,Flat raw data,"S4, S39",2
+Design oversights > Data/Schema,Storage of easily calculated values,"S4, S56",2
+Design oversights > Data/Schema,Inconsistent attribute structure,"S4, S18, S23, S39, S69",5
+Design oversights > Data/Schema,Data oriented instead of application oriented,"S3, S4, S69, S90, S114, S116, S117, S9, S70, S119, S56",11
+Design oversights > Data/Schema,Too many collections,"S6, S8, S18, S21, S23, S24, S25, S33, S149, S150, S153, S9, S35",13
+Design oversights > Data/Schema,Bloated documents,"S14, S18, S20, S21, S23, S24, S25, S30, S39, S56, S66, S69, S9, S16, S35, S62, S83",17
+Design oversights > Data/Schema,Unbound arrays,"S8, S10, S178, S14, S15, S20, S21, S24, S25, S28, S32, S39, S69, S70, S74, S146, S147, S148, S152, S9, S11, S12, S35, S171",24
+Design oversights > Index,Index intersection rather than compound index,S83,1
+Design oversights > Index,Prefix index of compound indexes,S83,1
+Design oversights > Index,"Non-ESR compound indexes (Equality, Sort, Range)","S69, S111",2
+Design oversights > Index,Abusive use of indexes,"S4, S14, S18, S20, S21, S23, S24, S25, S36, S56, S65, S83, S96, S117, S35, S47, S53, S58, S62, S140, S171, S176",22
+Human oriented decisions,Bias toward access patterns,S90,1
+Human oriented decisions,Using $ prefixed fields,S141,1
+Human oriented decisions,Human-readable values,"S4, S56",2
+Human oriented decisions,Too long attribute names,"S56, S66",2
+Human oriented decisions,Too long document keys,"S4, S154",2
+Performance/Memory,Large WTC (WiredTiger Cache),S37,1
+Performance/Memory,"Multiple ""mongod"" instances",S37,1
+Performance/Memory,Running MongoDB in a shared environment,S56,1
+Performance/Memory,Unlimited mongos taskExecutor in a container,S76,1
+Performance/Memory,Using fast writes,S69,1
+Performance/Memory,Large read-ahead,"S45, S50",2
+Performance/Memory,Using GridFS for small binary data,"S171, S56",2
+Performance/Memory,Running MongoDB on 32-bit systems,"S53, S56, S72, S84",4
+Query,Avoid $Where,S56,1
+Query,Confusing null and undefined,S69,1
+Query,Large skips for pagination,S176,1
+Query,No $elemMatch to match an entire array,S131,1
+Query,Single update/insert for batches,S69,1
+Query,Sorted monkeys,S39,1
+Query,Using $limit without $sort,S69,1
+Query,"Using $map, $reduce and $filter with array fields",S125,1
+Query,Using limit and skip for pagination,S43,1
+Query,Negation in queries,"S83, S62",2
+Query,Leading wildcard searches on indexed columns,"S83, S96, S62",3
+Query,Uncovered queries,"S69, S80, S177, S111, S115",5
+Query,Case-insensitive queries without matching indexes,"S31, S21, S24, S25, S35, S96",6
+Relational design ghosts,Storage of empty values,S4,1
+Relational design ghosts,Use of relational collections,S42,1
+Relational design ghosts,Relying on transactions,"S133, S154",2
+Relational design ghosts,Separating data accessed together,"S21, S24, S25, S34, S43, S144, S7, S13, S35, S63, S70, S87, S117, S130, S133, S140, S149, S151, S171",19
+Security,Forgetting to tie down MongoDB's attack surface,S69,1
+Security,No input sanitizing,S142,1
+Security,No security patches,S59,1
+Security,Not using LDAP for passwords rotations,S60,1
+Security,Using basic passwords,S55,1
+Security,Using default Mongod ports,S60,1
+Security,Using unofficial packages,S59,1
+Security,Improper user credential storage,"S60, S59",2
+Security,No database access control,"S62, S126",2
+Security,Unencrypted communication,"S60, S126",2
+Security,Unencrypted data,"S59, S126",2
+Security,No database user policy,"S114, S116, S126",3
+Security,Server without authentication,"S69, S60, S126",3
+Security,Too much network exposure,"S60, S114, S116, S126",4
+Sharding,Low-cardinality shard key,S98,1
+Sharding,Scatter-gather queries,S98,1
+Sharding,Unshardable collection,"S18, S23",2
+Sharding,Monotonically increasing shard key,"S19, S51, S179",3
+Sharding,Premature sharding,"S114, S116, S4",3
+Sharding,Working set exceeds memory,"S45, S53, S63, S72, S83, S73, S140",7

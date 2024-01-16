@@ -1,0 +1,77 @@
+Type,Code smell,Detection Level,Sources
+Aggregation,Lookup without supporting indexes,Schema & Code,1
+Aggregation,Too many aggregation stages,Code,1
+Aggregation,Map-reduce for projection,Code,3
+Backup,Manual backups,Process,1
+Backup,No backup budget,Process,1
+Backup,Replicas as backup,Configuration,3
+Design oversights > Application code,Immortal cursors,Code,1
+Design oversights > Application code,No dependency injector,Code,1
+Design oversights > Application code,Testing only CRUD operations,Code,1
+Design oversights > Application code,Testing queries on the entire ad-hoc big data lake,Configuration and Code,1
+Design oversights > Data/Schema,The single-person bridge,Code,1
+Design oversights > Application code,Querying too much data,Schema & Code,3
+Design oversights > Data/Schema,Multiple schema in a file,Code,1
+Design oversights > Data/Schema,Repeated immutable data,Data,1
+Design oversights > Data/Schema,"Using a document for ""_id""",Schema,1
+Design oversights > Data/Schema,Flat raw data,Schema or Code,2
+Design oversights > Data/Schema,Storage of easily calculated values,Data or Code,2
+Design oversights > Data/Schema,Inconsistent attribute structure,Data or (Schema & Code),5
+Design oversights > Data/Schema,Data oriented instead of application oriented,Process,11
+Design oversights > Data/Schema,Too many collection,Code,14
+Design oversights > Data/Schema,Bloated documents,Data,17
+Design oversights > Data/Schema,Unbound arrays,Data and Schema,25
+Design oversights > Index,Index intersection rather than compound index,Schema,1
+Design oversights > Index,Prefix index of compound indexes,Schema & Code,1
+Design oversights > Index,"Non-ESR compund indexes (Equality, Sort, Range)",Schema & Code,2
+Design oversights > Index,Abusive use of indexes,Schema & Code,22
+Human oriented decisions,Bias toward access patterns,Process,1
+Human oriented decisions,Using $ prefixed fields,Schema,1
+Human oriented decisions,Human readable values,Data,2
+Human oriented decisions,Too long attribute names,Data or Code or Schema,2
+Human oriented decisions,Too long document keys,Data or Code or Schema,2
+Performance/Memory,Large WTC (WiredTiger Cache),Configuration,1
+Performance/Memory,"Multiple ""mongod"" instances",Configuration,1
+Performance/Memory,Running MongoDB in a shared environnement ,Configuration,1
+Performance/Memory,Unlimited mongos taskExecutor in a container,Configuration,1
+Performance/Memory,Using fast writes,Configuration,1
+Performance/Memory,Large read-ahead,Configuration,2
+Performance/Memory,Using GridFS for small binary data,Data and Configuration,2
+Performance/Memory,Running MongoDB on 32-bits systems,Configuration,4
+Query,Avoid $Where,Code,1
+Query,Confusing null and undefined,Code,1
+Query,Large skips for pagination,Code,1
+Query,No $elemMatch to match an entire array,Schema & Code,1
+Query,Single update/insert for batches,Code,1
+Query,Sorted monkeys,Code & Data,1
+Query,Using $limit without $sort,Code,1
+Query,"Using $map, $reduce and $filter with array fields",Schema & Code,1
+Query,Using limit and skip for pagination,Code & Runtime,1
+Query,Negation in queries,Code,2
+Query,Leading wildcard searches on indexed columns,Schema or Code,3
+Query,Uncovered queries,Schema & Code,5
+Query,Case-insensitive queries without matching indexes,Schema & Code,6
+Relational design ghosts,Storage of empty values,Data or Code,1
+Relational design ghosts,Use of relational collections,Code,1
+Relational design ghosts,Relying on transactions,Code,3
+Relational design ghosts,Separating data accessed together,Code,19
+Security,Forgetting to tie down MongoDB's attack surface,Configuration,1
+Security,No input sanitizing,Code,1
+Security,No security patches,Configuration,1
+Security,Not using LDAP for passwords rotations,Configuration,1
+Security,Using basic passwords,Configuration,1
+Security,Using default Mongod ports,Configuration,1
+Security,Using unofficial packages,Configuration,1
+Security,Improper user credential storage,Configuration,2
+Security,No database access control,Configuration,2
+Security,Unencrypted communication,Configuration or Code,2
+Security,Unencrypted data,Configuration or Data,2
+Security,No database user policy,Configuration,3
+Security,Server without authentication,Configuration,3
+Security,Too much network exposure,Configuration,4
+Sharding,Low-cardinality shard key,Data,1
+Sharding,Scatter-gather queries,Data and Code,1
+Sharding,Unshardable collection,Data or Schema,2
+Sharding,Monotonically increasing shard key,Code,3
+Sharding,Premature sharding,Process,3
+Sharding,Working set exceeds memory,Data,7

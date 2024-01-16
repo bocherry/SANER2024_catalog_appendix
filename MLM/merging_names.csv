@@ -1,0 +1,98 @@
+(* = deleted),Alternate Name A,Alternate Name B,Alternate Name C,Alternate Name D,Alternate Name E,Alternate Name F,Alternate Name G,Alternate Name H,,,,,,Reason of deletion
+"The ""dynamic"" website *",,,,,,,,,,,,,,Too generic
+Data mapping *,,,,,,,,,,,,,,"Only in relational db, out of scope"
+The Alien *,The Binary Alien,Store data as a single document,SQL Table as a cache,SQL Table as Cache,,,,,,,,,,Out of scope
+SQLQueue *,The SQLQUEUE,,,,,,,,,,,,,Undetectable
+Relational modeling in a document store *,Relational modeling in a document database,Using RDBMS modelling as such,Relational Schema Design,Reusing RDMS modeling as such,Using it like Relational Databases,Assuming What Worked For Your RDBMS Will Interpret,,Overnormalized,Don't use relational modelling tips,,,,,"Too wide to be detected, became a category"
+Data oriented instead of application oriented,Data oriented instead of application oriented design,Not modeling about read time,Not thinking about read time,Schemas are not query first,Not designing for application performance,"STORE DATA AS YOU WANT TO QUERY IT, NOT AS IT COMES IN RAW!",Failing to design a schema,Assuming Schema-Less Implies No Schema,Schema-less doesn't mean thoughtless,Schema-less doesn’t mean thoughtless,Redesigning when extending,I Don't Need A Data Dictionary,"""I don't need a data dictionnary""",
+Storage of empty values,Empty Values,Empty values anti-pattern,,,,,,,,,,,,
+Human-readable values,TheReallyLongHumanReadableJSONAttributeNameAntiPattern,Human Readable Attribute Values,Very Long Muti-segment Human Readable Document Keys,Human Readable Attribute Values Anti-Pattern,Using incorrect data types,,,,,,,,,
+Flat raw data,Flat Raw Data Anti-Pattern,The squashed database,,,,,,,,,,,,
+Too long document keys,UUID Strings Representation As Document Keys,Using UUIDS/long document keys,Very Long Muti-segment Human Readable Document Keys Anti-Pattern,,,,,,,,,,,
+Testing queries on the entire ad-hoc big data lake,,,,,,,,,,,,,,
+Storage of easily calculated values,Storing Easily Calculated Values,,,,,,,,,,,,,
+Querying too much data,Unnecessary Retrieval As Formatted JSON Documents,Unnecessary Retrieval As Formatted JSON Documents Anti-Pattern,Ad-hoc Big Data Mining,Fetching unnecessary fields,Transaction script,,,,,,,,,
+Repeated immutable data,Repeated Immutable Data Anti-Pattern,,,,,,,,,,,,,
+No backup budget,No Backup Budget Anti-Pattern,,,,,,,,,,,,,
+Too many collections,many collections,Too many collection,Massive number of collections,One collection per user,Bucket collections,too many collections and indexes,,,,,,,,
+Unbound arrays,Unbounded arrays,unbonded arrays ,Massive arrays,Large arrays stored,Creating documents with large arrays,Arrays should not grow without bound,unbonded arrays,The tree in the house,Do not embed fields that have unbound growth,,,,,
+Abusive use of indexes,Too many Indexes,Unnecessary indexes,Over Indexing,Index Littering Anti-Pattern,Index Littering,Over usage of Index and bad indexeing sequence,Over usage of Index and bad indexing sequence,Careless indexing,improper indexing,Always using indexes,,,,
+Separating data accessed together,Separating data that is accessed together,Data That is Accessed Together Should Be Stored Together,Using joins,Usage of joins and $lookups,Using many lookup in a query,Using database references,,,,,,,,
+Micro-service shared persistence *,Shared Persistence,,,,,,,,,,,,,"Microservices architecture specific, out of scope"
+Monotonically increasing shard key,,,,,,,,,,,,,,
+Inconsistent attribute structure,Motley types,Forgetting the significance of the order of keys in a hash object,The fauna,Ad hoc Data Lake,The Ad-hoc Data Lake (a.k.a The Data Swamp),,,,,,,,,
+Unshardable collection,Unshardable collections,,,,,,,,,,,,,
+Bloated documents,Bloated documents anti-pattern,Avoid creating large documents,Creating collections with large documents,Large documents,crossing 16mb doc size,Subdocuments without bounds,"Large, deeply nested documents",$project the Elephant,Too many fields in a document,,,,,
+Case-insensitive queries without matching indexes,Case-Insensitive Queries without Case-Insensitive Indexes,Avoid Case Insensitive Regular Expressions,,,,,,,,,,,,
+"Multiple ""mongod"" instances",Having multiple instances of mongod,Multiple mongod on the Same Machine is Bad,,,,,,,,,,,,
+Large WTC (WiredTiger Cache),It is Not Recommended to Have a Very Large WTC,Greatly increasing WTC (WiredTiger Cache),,,,,,,,,,,,
+The single-person bridge,,,,,,,,,,,,,,
+Sorted monkeys,,,,,,,,,,,,,,
+Use of relational collections,Relying on joins,,,,,,,,,,,,,
+Using limit and skip for pagination,,,,,,,,,,,,,,
+Large read-ahead,Having a too large read-ahead,,,,,,,,,,,,,
+Running MongoDB on 32-bit systems,Using MongoDB in a 32-bit system,Running MongoDB in 32-bit systems,Run MongoDB On 32-Bit Systems,Running MongoDB on 32-bits systems,,,,,,,,,,
+Using basic passwords,,,,,,,,,,,,,,
+Running MongoDB in a shared environnement ,,,,,,,,,,,,,,
+Too long attribute names,Avoid long field names,long field names,,,,,,,,,,,,
+Using default Mongod ports,Using the default ports,,,,,,,,,,,,,
+Improper user credential storage,Shared credentials,Improper user credentials storage,,,,,,,,,,,,
+Not using LDAP for passwords rotations,Failure to use LDAP for password rotations,,,,,,,,,,,,,
+Avoid low-cardinal fields *,Low selectivity indexes,High selectivity indexes,,,,,,,,,,,,Undetectable
+Low-cardinality shard key,Non-Uniform Distribution of Shard Keys,,,,,,,,,,,,,
+Server without authentication,Creating a MongoDB server without authentication,Disabled authentication,,,,,,,,,,,,
+Forgetting to tie down MongoDB's attack surface,Forgetting to tie down MongoDB's attack surface,,,,,,,,,,,,,
+Forgetting about collations *,Forgetting about collations (sort order),,,,,,,,,,,,,Undetectable
+Using fast writes,,,,,,,,,,,,,,
+Lookup without supporting indexes,Lookups without supporting indexes,,,,,,,,,,,,,
+Single update/insert for batches,Not using multi-updates,,,,,,,,,,,,,
+Confusing null and undefined,Confusing ‘null’ and ‘undefined’,,,,,,,,,,,,,
+Using $limit without $sort,Using $limit() without $sort(),,,,,,,,,,,,,
+Unlimited mongos taskExecutor in a container,Not limiting taskExecutor for mongos in container environment,,,,,,,,,,,,,
+Uncovered queries,Non-indexed queries,Not using indexes,Sorting without an index,,,,,,,,,,,
+Unordered queries *,Non-ordered queries,,,,,,,,,,,,,No explanation in the source why it’s bad
+Map-reduce for projection,Using map-reduce for projection,Using Map-Reduce to perform projection,Not using an aggregation pipeline for projection,,,,,,,,,,,
+Index intersection rather than compound index,Use index intersection rather than compound index,,,,,,,,,,,,,
+Prefix index of compound indexes,,,,,,,,,,,,,,
+Leading wildcard searches on indexed columns,Regular expressions & indexes,Avoid Regular Expressions That Are Not Left Anchored or Rooted,,Leading wildcard indexes,,,,,,,,,,
+Negation in queries,Index negation,,,,,,,,,,,,,
+Bias toward access patterns,Bias toward any particular access pattern,,,,,,,,,,,,,
+Perform ELT on a MongoDB database *,,,,,,,,,,,,,,Undetectable
+Scatter-gather queries,,,,,,,,,,,,,,
+"Non-ESR compound indexes (Equality, Sort, Range)",Not respection ESR,Not respecting ESR for compound indexes,Forgetting that the order of stages in an aggregation matters,,,,,,,,,,,
+Too much network exposure,Allowing access from Internet,Database accessible from the internet,Failure to limit database access to known network devices,Allowing Access from the Internet,Failure to limit database access to know network devices,,,,,,,,,
+No database user policy,Not having multiple database users with access roles,Having Just a Single MongoDB User,Having just a single user,,,,,,,,,,,
+Premature sharding,,,,,,,,,,,,,,
+Replicas as backup,Relying on replicas as backups,Using Replicas as Backup,,,,,,,,,,,,
+Too many aggregation stages,Having too many aggregations stages,,,,,,,,,,,,,
+"Using $map, $reduce and $filter with array fields","Using $map, $reduce and $filter when working with array fields","Avoid using the $map, $reduce and $filter, when working with array fields.",,,,,,,,,,,,
+Multiple schemas in a file,Defining multiple Schema in a single file,,,,,,,,,,,,,
+No dependency injector,Not using a dependency injector,Declaring multiple times models,,,,,,,,,,,,
+No $elemMatch to match an entire array,Not using $elemMatch operator to match an entire array,,,,,,,,,,,,,
+Relying on transactions,Relying on trasactions,,,,,,,,,,,,,
+"Persistent entities should not be used as arguments of ""@RequestMapping"" methods *",,,,,,,,,,,,,,"Spring general issue, out of scope"
+Using $ prefixed fields,,,,,,,,,,,,,,
+No input sanitizing,Not sanitizing the input,Unsanitized inputs,,,,,,,,,,,,
+Unpredictable tomorrow *,,,,,,,,,,,,,,Undetectable
+Working set exceeds memory,,,,,,,,,,,,,,
+Unencrypted data,Unencrypted data,,,,,,,,,,,,,
+Using unofficial packages,,,,,,,,,,,,,,
+No security patches,,,,,,,,,,,,,,
+Manual backups,,,,,,,,,,,,,,
+No database access control,av,,,,,,,,,,,,,
+removing all documents *,,,,,,,,,,,,,,Undetectable
+Testing only CRUD operations,Testing limited to CRUD operations,,,,,,,,,,,,,
+$match is not user as the first stage,,,,,,,,,,,,,,
+incorrect use of $unwind,,,,,,,,,,,,,,
+"Trying to use the operators from the MQL’s find, when aggregation operators need to be used.",,,,,,,,,,,,,,
+Bad formatting of the query,,,,,,,,,,,,,,
+Unencrypted communication,Avoiding SSL usage,,,,,,,,,,,,,
+Forcing all of documents to have identical structures *,,,,,,,,,,,,,,Undetectable
+"Using the ""_id"" Field as a Primary Key *",Using the _id Field as a Primary Key,Reuse an _id Value,,,,,,,,,,,,No explanation in the source why it’s bad
+Modifying the _id field *,,,,,,,,,,,,,,Undetectable
+"Using a document for ""_id""",Using a document for _id,,,,,,,,,,,,,
+Using GridFS for small binary data,,,,,,,,,,,,,,
+Using fsync on every write *,,,,,,,,,,,,,,Undetectable
+Large skips for pagination,Large Skips,,,,,,,,,,,,,
+Immortal cursors,,,,,,,,,,,,,,
+Avoid $Where,,,,,,,,,,,,,,

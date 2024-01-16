@@ -1,0 +1,177 @@
+ID,Sources,Query,Search engine,Type
+S1,https://www.slideshare.net/bonmassar/patterns-antipatterns-with-nosql,MongoDB best practices,Google South Korea,Presentation slides
+S2,https://ayende.com/blog/4465/that-no-sql-thing-the-relational-modeling-anti-pattern-in-document-databases,Document database antipatterns,Google USA,Blog post/Online article
+S3,https://nosql.mypopescu.com/post/73194475815/anti-patterns-for-developing-with-nosql-databases,Document database antipatterns,Google USA,Blog post/Online article
+S4,https://www.linkedin.com/pulse/big-data-anti-patterns-marc-kenig/,Document database antipatterns,Google USA,Blog post/Online article
+S5,https://medium.com/@inCaller/antipatterns-of-using-nosql-c61eb03af395,Document database antipatterns,MongoDB Forum,Blog post/Online article
+S6,https://www.mongodb.com/community/forums/t/advice-for-modeling-a-database-for-multiple-games/112594,MongoDB antipatterns,MongoDB Forum,Forum post
+S7,https://www.mongodb.com/community/forums/t/best-way-to-store-products-and-its-attributes-information-in-mongodb/130338,MongoDB antipatterns,MongoDB Forum,Forum post
+S8,https://www.mongodb.com/community/forums/t/bill-of-material-data-modelling/118594/2,MongoDB antipatterns,MongoDB Forum,Forum post
+S9,https://www.mongodb.com/community/forums/t/how-build-a-database-that-records-user-preferences-over-lists-of-items/104178/2,Document database antipatterns,MongoDB Forum,Forum post
+S10,https://www.mongodb.com/community/forums/t/how-to-store-users-liked-items/98397/2,Document database antipatterns,MongoDB Forum,Forum post
+S11,https://www.mongodb.com/community/forums/t/is-it-better-to-make-frequent-read-operations-or-to-pull-all-data-periodically/151429/3,Document database antipatterns,MongoDB Forum,Forum post
+S12,https://www.mongodb.com/community/forums/t/looking-for-advice-on-designing-schema-for-performing-efficient-queries/122340/4,Document database antipatterns,MongoDB Forum,Forum post
+S13,https://www.mongodb.com/community/forums/t/what-is-the-best-schema-for-a-blog-post-for-storing-the-blog-content-like-share-and-comment/131915/2,Document database antipatterns,MongoDB Forum,Forum post
+S14,https://www.mongodb.com/developer/products/mongodb/performance-tuning-tips/,MongoDB antipatterns,MongoDB website,Blog post/Online article
+S15,https://www.mongodb.com/community/forums/t/data-modeling-for-reward-program/11453/2,Document database antipatterns,MongoDB Forum,Forum post
+S16,https://www.mongodb.com/community/forums/t/please-help-me-to-design-the-collection-schema-and-its-scope/151677/2,MongoDB antipatterns,MongoDB Forum,Forum post
+S17,https://dl.acm.org/doi/abs/10.1145/3387906.3388625,MongoDB antipatterns,Google Scholar,Published paper
+S18,https://books.google.fr/books?hl=nl&lr=&id=kzkzEAAAQBAJ&oi=fnd&pg=PT21&dq=mongodb+antipatterns&ots=8U6YrX4-3d&sig=mgTPEUBC-My-nq1E2YmyLolnmJo#v=onepage&q=mongodb%20antipatterns&f=false,MongoDB antipatterns,Google Australia,Book
+S19,http://learnmongodbthehardway.com/schema/sharding/,MongoDB antipatterns,Google Belgium,Book
+S20,https://books.google.fr/books?hl=nl&lr=&id=wAOEEAAAQBAJ&oi=fnd&pg=PP1&dq=mongodb+antipatterns&ots=VWtKBIdN8u&sig=5IhGU1eVNvJ_JGv19g4s7BqqYkg#v=onepage&q=mongodb%20antipatterns&f=false,MongoDB antipatterns,Google Belgium,Book
+S21,https://devopedia.org/data-modelling-with-mongodb,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S22,https://hackmysql.com/post/custom-mongodb-replica-set-write-concern/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S23,https://livebook.manning.com/book/mongodb-in-action/appendix-b/,MongoDB antipatterns,Google Belgium,Book chapter
+S24,https://medium.com/@ayazhussainbs/mongodb-schema-design-anti-patterns-in-a-nutshell-fbd0dfe0d416,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S25,https://morioh.com/p/475dc6b60036,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S26,https://readosapien.com/schema-design-anti-patterns-intro/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S27,https://stackoverflow.com/questions/13907673/is-transaction-script-an-antipattern-with-nosql-databases-also,MongoDB antipatterns,Google Belgium,Q&A
+S28,https://towardsdatascience.com/design-patterns-for-mongodb-894767315905,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S29,https://www.linkedin.com/learning/data-modeling-in-mongodb,MongoDB antipatterns,Google Belgium,Course/Certification material
+S30,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-bloated-documents/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S31,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-case-insensitive-query-index/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S32,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-massive-arrays/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S33,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-massive-number-collections/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S34,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-separating-data/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S35,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-summary/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S36,https://www.mongodb.com/developer/products/mongodb/schema-design-anti-pattern-unnecessary-indexes/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S37,https://www.percona.com/blog/2021/05/24/mongodb-tuning-anti-patterns-how-tuning-memory-can-make-things-much-worse/,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S38,https://www.qualiero.com/community/mongodb/mongodb-theorie/mongodb-schema-design-anti-patterns.html,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S39,https://www.slideshare.net/mongodb/mongodb-world-2019-raiders-of-the-antipatterns-a-journey-towards-fixing-schema-mistakes-in-mongodb,MongoDB antipatterns,Google Belgium,Blog post/Online article
+S40,http://accorsi.net/docs/10gen-MongoDB_Operations_Best_Practices.pdf,MongoDB best practices,Google Belgium,White paper
+S41,https://blog.logicwind.com/mongodb-schema-design/,MongoDB best practices,Google Belgium,Blog post/Online article
+S42,https://blog.panoply.io/mongodb-best-practices,MongoDB best practices,Google Belgium,Blog post/Online article
+S43,https://www.mongodb.com/community/forums/t/sorting-a-populated-field/10083/3,MongoDB best practices,Google Belgium,Forum post
+S44,https://cloud.ibm.com/docs/database-tools?topic=database-tools-dbt-mongobd-best-practices,MongoDB best practices,Google Belgium,Blog post/Online article
+S45,https://d0.awsstatic.com/whitepapers/AWS_NoSQL_MongoDB.pdf,MongoDB best practices,Google Belgium,White paper
+S46,https://dev.to/sip3/mongodb-best-practices-from-the-sip3-team-28i,MongoDB best practices,Google Belgium,Blog post/Online article
+S47,https://devops.com/7-best-practices-new-mongodb-users-know/,MongoDB best practices,Google Belgium,Blog post/Online article
+S48,https://discuss.overhang.io/t/best-practices-to-purge-large-mongo-db-files/2221,MongoDB best practices,Google Belgium,Forum post
+S49,https://docs.rivery.io/docs/mongodb-best-practice-for-pulling-large-amounts-of-data,MongoDB best practices,Google Belgium,Blog post/Online article
+S50,https://dzone.com/articles/10-mongodb-best-practices-for-aws-prod-deploys,MongoDB best practices,Google Belgium,Blog post/Online article
+S51,https://geekflare.com/mongodb-sharding-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S52,https://github.com/ibm-cloud-docs/database-tools/blob/master/mongodb-architectural-best-practices.md,MongoDB best practices,Google Belgium,Blog post/Online article
+S53,https://github.com/vaquarkhan/Technology-best-practices/blob/master/nosql/mongodb/README.md,MongoDB best practices,Google Belgium,Blog post/Online article
+S54,https://hevodata.com/learn/mongodb-configuration/,MongoDB best practices,Google Belgium,Blog post/Online article
+S55,https://kb.objectrocket.com/mongo-db/mongodb-security-best-practices-699,MongoDB best practices,Google Belgium,Blog post/Online article
+S56,https://link.springer.com/book/10.1007/978-1-4842-0647-8,MongoDB best practices,Google Belgium,Book
+S57,https://medium.com/@khushalbisht/mongodb-user-management-credentials-and-security-best-practices-bcf18b357662,MongoDB best practices,Google Belgium,Blog post/Online article
+S58,https://rockset.com/webinars/scaling-mongodb-talk/,MongoDB best practices,Google Belgium,Presentation video
+S59,https://satoricyber.com/mongodb-security/11-mongodb-security-features-and-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S60,https://severalnines.com/blog/best-practices-mongodb-security/,MongoDB best practices,Google Belgium,Blog post/Online article
+S61,https://stackoverflow.com/questions/71230787/mongodb-subdocument-structure-best-practices-and-queries,MongoDB best practices,Google Belgium,Q&A
+S62,https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781783982608/1/ch01lvl1sec05/mongodb-configuration-and-best-practices,MongoDB best practices,Google Belgium,Blog post/Online article
+S63,https://www.adservio.fr/post/mongodb-best-practices,MongoDB best practices,Google Belgium,Blog post/Online article
+S64,https://www.cloudthat.com/performance-considerations-best-practices-for-high-traffic-mongodb-deployment-on-aws/,MongoDB best practices,Google Belgium,Blog post/Online article
+S65,https://www.compose.com/articles/mongodb-indexing-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S66,https://www.datavail.com/blog/mongodb-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S67,https://www.digitalocean.com/community/tutorial_series/mongodb-security-best-practices-to-keep-your-data-safe,MongoDB best practices,Google Belgium,Blog post/Online article
+S68,https://www.facebook.com/Studio3T/posts/mongodb-best-practices-for-uuid-data-studio-3t/3142923009158952/,MongoDB best practices,Google Belgium,Blog post/Online article
+S69,https://www.infoq.com/articles/Starting-With-MongoDB/,MongoDB best practices,Google Belgium,Blog post/Online article
+S70,https://www.joekarlsson.com/2020/04/mongodb-schema-design-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S71,https://www.linkedin.com/pulse/5-mongodb-best-practices-database-architecture-dev-pro/,MongoDB best practices,Google Belgium,Blog post/Online article
+S72,https://www.loginworks.com/blogs/engage-best-practices-mongodb/,MongoDB best practices,Google Belgium,Blog post/Online article
+S73,https://www.mongodb.com/blog/post/performance-best-practices-mongodb-data-modeling-and-memory-sizing,MongoDB best practices,Google Belgium,Blog post/Online article
+S74,https://www.mongodb.com/developer/products/mongodb/mongodb-schema-design-best-practices/,MongoDB best practices,Google Belgium,Blog post/Online article
+S75,https://www.netapp.com/pdf.html?item=/media/10574-tr-4600.pdf,MongoDB best practices,Google Belgium,Technical report
+S76,https://www.percona.com/blog/2020/04/17/mongodb-best-practices-2020-edition/,MongoDB best practices,Google Belgium,Blog post/Online article
+S77,https://www.quora.com/What-are-some-best-practices-for-optimal-performance-of-MongoDB-particularly-for-queries-that-involve-multiple-documents,MongoDB best practices,Google Belgium,Q&A
+S78,https://www.reddit.com/r/node/comments/39bnss/best_practice_for_storing_data_in_mongodb/,MongoDB best practices,Google Belgium,Forum post
+S79,https://www.sciencedirect.com/science/article/pii/S0169023X21000203,MongoDB best practices,Google Belgium,Published paper
+S80,https://www.sciencedirect.com/science/article/pii/S2210537918301112,MongoDB best practices,Google Belgium,Published paper
+S81,https://www.tutorialspoint.com/mongodb/mongodb_data_modeling.htm,MongoDB best practices,Google Belgium,Course/Certification material
+S82,https://dba.stackexchange.com/questions/195155/mongodb-authentication-database-best-practice,MongoDB best practices,Google Brazil,Q&A
+S83,https://s3-ap-southeast-1.amazonaws.com/tv-prod/documents%2Fnull-10gen-MongoDB_Operations_Best_Practices.pdf,MongoDB best practices,Google Brazil,White paper
+S84,https://support.engineyard.com/hc/en-us/articles/7598869697810-Best-Practices-for-Using-a-Custom-MongoDB-Environment-with-Engine-Yard-Cloud,MongoDB best practices,Google Brazil,Blog post/Online article
+S85,https://ieeexplore.ieee.org/document/8606019,MongoDB best practices,Google USA,Published paper
+S86,https://ieeexplore.ieee.org/document/9101730,MongoDB best practices,Google USA,Published paper
+S87,https://www.digitalocean.com/community/tutorials/how-to-design-a-document-schema-in-mongodb,MongoDB best practices,Google Belgium,Blog post/Online article
+S88,https://hevodata.com/learn/mongodb-data-modeling/,MongoDB best practices,MongoDB Forum,Blog post/Online article
+S89,https://learnwithneeraj.com/mongodb-advanced/mongodb-schema-design-best-practices,MongoDB best practices,MongoDB Forum,Blog post/Online article
+S90,https://medium.com/hackernoon/mongodb-schema-design-86327d8fae83,MongoDB best practices,MongoDB Forum,Blog post/Online article
+S91,https://www.knowi.com/blog/mongodb-analytics-solutions-best-practices/,MongoDB best practices,MongoDB Forum,Blog post/Online article
+S92,https://www.knowledgehut.com/blog/web-development/use-mongodb-data-modeling-to-improve-throughput-operation,MongoDB best practices,MongoDB Forum,Blog post/Online article
+S93,https://www.mongodb.com/developer/videos/mongodb-schema-design-best-practices/,MongoDB best practices,MongoDB Forum,Presentation video
+S94,https://www.mongodb.com/basics/best-practices,MongoDB antipatterns,MongoDB website,Blog post/Online article
+S95,https://www.mongodb.com/blog/post/performance-best-practices-benchmarking,MongoDB best practices,MongoDB website,Blog post/Online article
+S96,https://www.mongodb.com/blog/post/performance-best-practices-indexing,MongoDB best practices,MongoDB website,Blog post/Online article
+S97,https://www.mongodb.com/blog/post/performance-best-practices-mongodb-data-modeling-and-memory-sizing,MongoDB best practices,MongoDB website,Blog post/Online article
+S98,https://www.mongodb.com/blog/post/performance-best-practices-sharding,MongoDB best practices,MongoDB website,Blog post/Online article
+S99,https://www.mongodb.com/blog/post/schema-suggestions-atlas-years-best-practices-instantly-available-to-you,MongoDB best practices,MongoDB website,Blog post/Online article
+S100,https://www.mongodb.com/partners/partner-program/technology/certification/bi-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S101,https://www.mongodb.com/partners/partner-program/technology/certification/data-integration-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S102,https://www.mongodb.com/partners/partner-program/technology/certification/encryption-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S103,https://www.mongodb.com/partners/partner-program/technology/certification/etl-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S104,https://www.mongodb.com/partners/partner-program/technology/certification/monitoring-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S105,https://www.mongodb.com/partners/partner-program/technology/certification/security-best-practices,MongoDB best practices,MongoDB website,Blog post/Online article
+S106,https://www.mongodb.com/presentation/best-practices-of-deploying-mongodb-atlas-on-azure,MongoDB best practices,MongoDB website,Presentation video
+S107,https://www.mongodb.com/presentations/best-practices-for-deploying-mongo-db-atlas-on-google-cloud,MongoDB best practices,MongoDB website,Presentation video
+S108,https://dl.acm.org/doi/abs/10.1145/3175628.3175646,MongoDB best practices,Google Scholar,Published paper
+S109,https://sci-hub.mksa.top/10.1109/igcc.2017.8323581,MongoDB best practices,Google Scholar,Published paper
+S110,https://www.theseus.fi/handle/10024/754843,MongoDB best practices,Google Scholar,Bachelor's thesis
+S111,https://www.slideshare.net/mongodb/mongodb-world-2019-the-sights-and-smells-of-a-bad-query,MongoDB code smells,Google Belgium,Presentation slides
+S112,https://dl.acm.org/doi/abs/10.1145/3430665.3456308,MongoDB mistakes,Google Belgium,Published paper
+S113,https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A667511&dswid=-5610,MongoDB mistakes,Google Belgium,Master's thesis
+S114,https://bigdataanalyticsnews.com/mongodb-mistakes-to-avoid-the-best-practices-to-follow/,MongoDB mistakes,Google Belgium,Blog post/Online article
+S115,https://dev.to/shrihari/mistakes-i-made-when-i-started-nodejs-mongodb-5g92,MongoDB mistakes,Google Belgium,Blog post/Online article
+S116,https://hub.packtpub.com/5-mistakes-web-developers-make-when-working-mongodb/,MongoDB mistakes,Google Belgium,Blog post/Online article
+S117,https://www.1cloudhub.com/mongodb_optimization_scalability/,MongoDB mistakes,Google Belgium,Blog post/Online article
+S118,https://www.inconceptlabs.com/blog/when-not-to-use-mongodb,MongoDB mistakes,Google Belgium,Blog post/Online article
+S119,https://www.quora.com/What-is-the-common-mistake-done-with-a-beginner-in-MongoDB-or-NoSQL-in-general,MongoDB mistakes,Google Belgium,Q&A
+S120,https://gist.github.com/ddossot/1343208/90f66f06bf4e957930b1719823c2aa7f466ecd2a,MongoDB mistakes,Google South Africa,Blog post/Online article
+S121,https://www.mongodb.com/developer/products/mongodb/everything-you-know-is-wrong/,MongoDB mistakes,Google South Africa,Blog post/Online article
+S122,https://alawini.web.illinois.edu/wp-content/uploads/2021/12/3430665.3456308.pdf,MongoDB mistakes,Google South Korea,Published paper
+S123,https://access.redhat.com/documentation/en-us/openshift_enterprise/2/html/troubleshooting_guide/mongodb_failures,MongoDB mistakes,MongoDB Forum,Documentation
+S124,https://will-keleher.com/posts/Mongo_Performance_is_Disk-graceful.html,MongoDB mistakes,MongoDB Forum,Blog post/Online article
+S125,https://www.mongodb.com/community/forums/t/what-are-some-of-the-biggest-mistakes-people-make-in-aggregation-pipelines/11803,MongoDB mistakes,MongoDB Forum,Forum post
+S126,https://www.mongodb.com/blog/post/mongodb-security-part-ii-10-mistakes-that-can,MongoDB mistakes,MongoDB website,Blog post/Online article
+S127,https://www.mongodb.com/blog/post/the-mean-stack-mistakes-youre-probably-making,MongoDB mistakes,MongoDB website,Blog post/Online article
+S128,https://www.mongodb.com/community/forums/t/stop-dont-make-these-schema-design-mistakes-in-mongodb/149707,MongoDB mistakes,MongoDB website,Presentation video
+S129,https://gist.github.com/alexbevi/d8d3ea9cbc539487471ba61ab01c7567,MongoDB smells,Google Belgium,Presentation appendix
+S130,https://stackoverflow.com/questions/71695407/how-to-add-allowdiskuse-true-in-spring-mongo-view-creation,MongoDB smells,Google Belgium,Blog post/Online article
+S131,https://what-when-how.com/Tutorial/topic-3847gsu/The-Definitive-Guide-to-MongoDB-65.html,MongoDB smells,Google Belgium,Blog post/Online article
+S132,https://www.mongodb.com/community/forums/t/building-in-index-with-all-document-fields/115454,MongoDB smells,Google Belgium,Forum post
+S133,https://www.mongodb.com/developer/products/mongodb/3-things-to-know-switch-from-sql-mongodb/,MongoDB smells,Google Belgium,Blog post/Online article
+S134,https://www.mongodb.com/docs/manual/tutorial/equality-sort-range-rule/,MongoDB smells,Google Belgium,Blog post/Online article
+S135,https://www.mongodb.com/docs/upcoming/tutorial/equality-sort-range-rule/,MongoDB smells,Google Belgium,Blog post/Online article
+S136,https://dl.acm.org/doi/10.1145/2905055.2905155,MongoDB smells,ACM Digital Library,Published paper
+S137,https://www.appsloveworld.com/mongodb/100/94/is-transaction-script-an-antipattern-with-nosql-databases-also,MongoDB antipatterns,Google Belgium,Q&A
+S138,https://microservices.io/patterns/data/shared-database.html,MongoDB antipatterns,Google Belgium,Documentation
+S139,https://rules.sonarsource.com/java/RSPEC-4684,MongoDB code smells,Google Belgium,Documentation
+S140,https://www.showwcase.com/show/16275/mongodb-schema-design-best-practices-to-try-in-2022,MongoDB code smells,Google Belgium,Blog post/Online article
+S141,https://jira.mongodb.org/browse/SERVER-40070,MongoDB smells,Google Belgium,Bug report
+S142,https://brightsec.com/blog/sql-injection-in-mongodb-examples-and-prevention/,MongoDB mistakes,Google Belgium,Blog post/Online article
+S143,https://climbtheladder.com/10-mongodb-_id-best-practices/,MonogDB mistakes,Google Belgium,Blog post/Online article
+S144,https://www.mongodb.com/community/forums/t/join-table-equivalent-in-mongodb/8895,MongoDB antipatterns,MongoDB Forum,Forum post
+S145,https://www.mongodb.com/community/forums/t/does-mongodb-have-a-naming-convention-for-collection-and-field-naming/11806,MongoDB antipatterns,MongoDB Forum,Forum post
+S146,https://www.mongodb.com/community/forums/t/positional-operator-vs-elemmatch-performance/148779/3,MongoDB antipatterns,MongoDB Forum,Forum post
+S147,https://www.mongodb.com/community/forums/t/data-modeling-for-reward-program/11453,MongoDB antipatterns,MongoDB Forum,Forum post
+S148,https://www.mongodb.com/community/forums/t/performance-of-push-to-update-large-document/153946,MongoDB antipatterns,MongoDB Forum,Forum post
+S149,https://www.mongodb.com/community/forums/t/is-it-common-to-use-single-document-collections-for-schema-validation/149540,MongoDB antipatterns,MongoDB Forum,Forum post
+S150,https://www.mongodb.com/community/forums/t/db-for-every-customer/107363,MongoDB antipatterns,MongoDB Forum,Forum post
+S151,https://www.mongodb.com/community/forums/t/catalogue-design-for-complex-pricing-model/151983/2,MongoDB antipatterns,MongoDB Forum,Forum post
+S152,https://www.mongodb.com/community/forums/t/tasks-and-subtasks/147521,MongoDB antipatterns,MongoDB Forum,Forum post
+S153,https://www.mongodb.com/community/forums/t/need-help-structuring-my-database-to-optimise-scaling/135521/2,MongoDB antipatterns,MongoDB Forum,Forum post
+S154,https://www.mongodb.com/community/forums/t/how-to-manage-a-db-with-collections-with-different-fields/98287/8,MongoDB code smells,MongoDB Forum,Forum post
+S155,https://www.mongodb.com/community/forums/t/ch4-facets-lab/85357,MongoDB code smells,MongoDB Forum,Forum post
+S156,https://ieeexplore.ieee.org/document/9101730,MongoDB best practices,IEEE xplore,Published paper
+S157,https://riak.com/riak-development-anti-patterns/,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S158,https://www.mongodb.com/developer/products/mongodb/attribute-pattern/,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S159,https://www.mongodb.com/blog/post/building-with-patterns-a-summary,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S160,https://www.mongodb.com/community/forums/t/lets-talk-schema-design-anti-patterns/9879,SNOWBALLING,SNOWBALLING,Forum post
+S161,https://www.amazon.com/MongoDb-Applied-Design-Patterns-Copeland,SNOWBALLING,SNOWBALLING,Book
+S162,"Gómez P., Roncancio C., Casallas R.: Towards quality analysis for document oriented bases",SNOWBALLING,SNOWBALLING,Published paper
+S163,"Mior M.J., Salem K., Aboulnaga A., Liu R.: NoSE: Schema design for NoSQL applications",SNOWBALLING,SNOWBALLING,Published paper
+S164,https://www.mongodb.com/developer/products/mongodb/polymorphic-pattern/,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S165,https://www.quora.com/unanswered/What-are-some-of-the-most-common-mistakes-made-by-MongoDB-users,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S166,https://www.quora.com/unanswered/What-are-some-of-the-most-common-mistakes-made-when-learning-MongoDB,SNOWBALLING,SNOWBALLING,White paper/Blog post
+S167,https://www.youtube.com/playlist?list=PL4RCxklHWZ9uluV0YBxeuwpEa0FWdmCRy,SNOWBALLING,SNOWBALLING,Presentation
+S168,https://www.youtube.com/watch?v=8CZs-0it9r4&list=PL4RCxklHWZ9uluV0YBxeuwpEa0FWdmCRy&index=2,SNOWBALLING,SNOWBALLING,Presentation
+S169,https://www.youtube.com/watch?v=mHeP5IbozDU&list=PL4RCxklHWZ9uluV0YBxeuwpEa0FWdmCRy&index=3&t=49s,SNOWBALLING,SNOWBALLING,Presentation
+S170,https://www.youtube.com/watch?v=dAN76_47WtA&list=PL4RCxklHWZ9uluV0YBxeuwpEa0FWdmCRy&index=4,SNOWBALLING,SNOWBALLING,Presentation
+S171,https://www.amazon.com/50-Tips-Tricks-MongoDB-Developers-ebook,SNOWBALLING,SNOWBALLING,Book
+S172,https://www.amazon.com/Data-Modeling-MongoDB-Steve-Hoberman,SNOWBALLING,SNOWBALLING,Book
+S173,https://www.amazon.com/MongoDB-Cookbook-Second-Cyrus-Dasadia-ebook,SNOWBALLING,SNOWBALLING,Book
+S174,https://www.amazon.com/MongoDB-Java-Developers-Francesco-Marchioni-ebook,SNOWBALLING,SNOWBALLING,Book
+S175,https://www.amazon.com/MongoDB-Recipes-Modeling-Building-Strategies-ebook,SNOWBALLING,SNOWBALLING,Book
+S176,https://www.amazon.com/MongoDB-Definitive-Powerful-Scalable-Storage,SNOWBALLING,SNOWBALLING,Book
